@@ -1,11 +1,13 @@
-package com.example.godstradeoffs;
+package com.example.godstradeoffs
 
+import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 
-public class WelcomeActivity : AppCompatActivity() {
+class WelcomeActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstancesState)
+        super.onCreate(savedInstanceState)
+
         setContentView(R.layout.activity_welcome)
     }
 }
